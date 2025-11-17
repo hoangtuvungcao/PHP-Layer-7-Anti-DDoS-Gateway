@@ -104,8 +104,6 @@ Each layer returns a `SecurityResult` which may carry metadata (e.g., `retry_aft
 5. **Logging:** Every outcome appended to `security/logs/security.log`.
 6. **Maintenance:** On first request after interval, `MaintenanceService` cleans blocklists/logs.
 
-![Flow Diagram](docs/assets/flow-diagram.png) _(Create/replace with actual diagram if desired)_
-
 ---
 
 ## Configuration
